@@ -1,0 +1,1 @@
+# ecollect-sample-public-api-implementation
