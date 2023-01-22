@@ -1,4 +1,5 @@
-# ecollect-sample-public-api-implementation
+# ecollect-example-api-client-implementation
+
 
 Example java client implementation used to connect to the public eCollect v2 API: https://ecollect.org/docs/v2/api/. 
 
