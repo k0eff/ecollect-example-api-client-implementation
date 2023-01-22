@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ecollect.api.tests.CreditPostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-18T07:20:35" hostname="Krasimirs-MacBook-Pro.local" time="23.474">
+  <properties/>
+  <testcase name="CreditPostTest" classname="org.ecollect.api.tests.CreditPostTest" time="23.474"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+</testsuite>

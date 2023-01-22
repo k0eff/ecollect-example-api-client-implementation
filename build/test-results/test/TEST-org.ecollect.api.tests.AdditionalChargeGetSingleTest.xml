@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ecollect.api.tests.AdditionalChargeGetSingleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-18T07:24:56" hostname="Krasimirs-MacBook-Pro.local" time="1.852">
+  <properties/>
+  <testcase name="ChargeGetSingleTest" classname="org.ecollect.api.tests.AdditionalChargeGetSingleTest" time="1.852"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

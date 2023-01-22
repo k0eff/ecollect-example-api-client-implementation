@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ecollect.api.tests.CustomerListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-18T07:24:54" hostname="Krasimirs-MacBook-Pro.local" time="1.868">
+  <properties/>
+  <testcase name="checkCustomerList" classname="org.ecollect.api.tests.CustomerListTest" time="1.868"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

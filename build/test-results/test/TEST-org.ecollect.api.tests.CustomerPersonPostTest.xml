@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ecollect.api.tests.CustomerPersonPostTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-09-18T07:21:55" hostname="Krasimirs-MacBook-Pro.local" time="9.303">
+  <properties/>
+  <testcase name="CustomerObjBankAccountsCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="1.042"/>
+  <testcase name="CustomerObjEventsCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="0.969"/>
+  <testcase name="CustomerObjMetadataCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="1.487"/>
+  <testcase name="CustomerPostedObjEventsCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="0.991"/>
+  <testcase name="CustomerPostedObjMetadataCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="0.832"/>
+  <testcase name="CustomerPostedObjPersonSexCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="1.39"/>
+  <testcase name="CustomerObjPersonSexCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="1.231"/>
+  <testcase name="CustomerPostedObjBankAccountsCheck" classname="org.ecollect.api.tests.CustomerPersonPostTest" time="1.361"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

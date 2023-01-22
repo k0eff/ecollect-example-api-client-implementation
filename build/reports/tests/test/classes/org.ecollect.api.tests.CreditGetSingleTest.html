@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ecollect.api.tests.CreditGetSingleTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ecollect.api.tests.CreditGetSingleTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ecollect.api.tests.html">org.ecollect.api.tests</a> &gt; CreditGetSingleTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.150s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">CreditGetSingleTest</td>
+<td class="success">1.150s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>{&quot;error&quot;:{&quot;code&quot;:&quot;validation_error&quot;,&quot;message&quot;:&quot;validation failed&quot;,&quot;data&quot;:{&quot;message&quot;:&quot;validation failed&quot;,&quot;general&quot;:[{&quot;keyword&quot;:&quot;oneOf&quot;,&quot;params&quot;:{&quot;passingSchemas&quot;:null},&quot;message&quot;:&quot;should match exactly one schema in oneOf&quot;}],&quot;fields&quot;:{&quot;invoice&quot;:[{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;invoice&quot;},&quot;message&quot;:&quot;is a required property&quot;}],&quot;customer&quot;:[{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;customer&quot;},&quot;message&quot;:&quot;is a required property&quot;},{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;customer&quot;},&quot;message&quot;:&quot;is a required property&quot;},{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;customer&quot;},&quot;message&quot;:&quot;is a required property&quot;}],&quot;charge&quot;:[{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;charge&quot;},&quot;message&quot;:&quot;is a required property&quot;}],&quot;claim&quot;:[{&quot;keyword&quot;:&quot;required&quot;,&quot;params&quot;:{&quot;missingProperty&quot;:&quot;claim&quot;},&quot;message&quot;:&quot;is a required property&quot;}]}},&quot;stack&quot;:&quot;ValidationError: validation failed\n    at new OblakError (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/tools/errors/OblakError.js:15:9)\n    at new ValidationError (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/tools/errors/ValidationError.js:36:3)\n    at Function.formAjvError (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/tools/errors/ValidationError.js:74:27)\n    at Function.fromEvent (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/tools/errors/CommandRejectedError.js:19:27)\n    at Function.fromEvent (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/tools/errors/index.js:9:43)\n    at CommandRunner._handleEvent (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/plugins/shared/WireApi/CommandRunner.js:162:27)\n    at EventSubscribtionStream.&lt;anonymous&gt; (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/plugins/shared/WireApi/CommandRunner.js:130:31)\n    at EventSubscribtionStream.emit (events.js:210:5)\n    at addChunk (_stream_readable.js:309:12)\n    at readableAddChunk (_stream_readable.js:290:11)\n    at EventSubscribtionStream.Readable.push (_stream_readable.js:224:10)\n    at EventSubscribtionStream.Transform.push (_stream_transform.js:150:32)\n    at EventSubscribtionStream.afterTransform (_stream_transform.js:94:10)\n    at EventSubscribtionStream._transform (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/plugins/shared/streams/EventsSubscribtionStream.js:20:3)\n    at EventSubscribtionStream.Transform._read (_stream_transform.js:189:10)\n    at EventSubscribtionStream.Transform._write (_stream_transform.js:177:12)\n    at doWrite (_stream_writable.js:431:12)\n    at writeOrBuffer (_stream_writable.js:415:5)\n    at EventSubscribtionStream.Writable.write (_stream_writable.js:305:11)\n    at KellnerPassThrough.onData (/Users/krasimir.koeff/Projects/eCollect/ecollect-v2-core/node_modules/oblak/lib/plugins/shared/OblakWire.js:101:30)\n    at KellnerPassThrough.emit (events.js:215:7)\n    at addChunk (_stream_readable.js:309:12)&quot;}}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.0.1</a> at 18.09.2020 10:26:35</p>
+</div>
+</div>
+</body>
+</html>
